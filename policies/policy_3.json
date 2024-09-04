@@ -1,0 +1,31 @@
+{
+  "policyVariableData": [
+    {
+      "id": 1,
+      "collectorId": "v_100057",
+      "driftPriority": "Low",
+      "expectedValue": "0",
+      "templateId": "413345",
+      "comparisonType": "Equality",
+      "autoReaction": "No"
+    },
+    {
+      "id": 2,
+      "collectorId": "v_100058",
+      "driftPriority": "Medium",
+      "expectedValue": ["DEFAULT", "SDEFAULT", "NO", "YES"],
+      "templateId": "413345",
+      "comparisonType": "In List",
+      "autoReaction": "No"
+    }
+  ],
+  "policyName": "Database_Policy_1",
+  "policyDescription": "Database Level Metrics 1",
+  "owner": [
+    "mubbanthal",
+    "lokeshkumar"
+  ],
+  "roleTags": [
+    "test_harmony"
+  ]
+}

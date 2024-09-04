@@ -1,0 +1,31 @@
+{
+  "policyVariableData": [
+    {
+      "id": 1,
+      "collectorId": "v_100061",
+      "driftPriority": "Medium",
+      "expectedValue": "^.+$",
+      "templateId": "413345",
+      "comparisonType": "Regex",
+      "autoReaction": "No"
+    },
+    {
+      "id": 2,
+      "collectorId": "v_100062",
+      "driftPriority": "High",
+      "expectedValue": "^$",
+      "templateId": "413345",
+      "comparisonType": "Regex",
+      "autoReaction": "No"
+    }
+  ],
+  "policyName": "Existence_Test",
+  "policyDescription": "Existence Regex Test Policy",
+  "owner": [
+    "mubbanthal",
+    "lokeshkumar"
+  ],
+  "roleTags": [
+    "test_harmony"
+  ]
+}
