@@ -27,5 +27,7 @@
   ],
   "roleTags": [
     "test_harmony"
-  ]
+  ],
+  "executionUser": "execution",
+  "sudoPrefix": "sudo"
 }
