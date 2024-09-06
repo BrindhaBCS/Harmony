@@ -46,7 +46,7 @@
       "autoReaction": "No"
     }
   ],
-  "policyName": "SAP_Policy",
+  "policyName": "SAP_Policy_1",
   "policyDescription": "SAP Level Metrics",
   "owner": [
     "mubbanthal",
