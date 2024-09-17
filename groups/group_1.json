@@ -1,4 +1,4 @@
-{
+"{
   "groupDescription": "test",
   "groupData": [
     {
@@ -27,4 +27,4 @@
     }
   ],
   "groupName": "testGroup",
-}
+}"
