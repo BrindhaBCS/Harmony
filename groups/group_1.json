@@ -1,4 +1,4 @@
-""{
+{
   "groupDescription": "test",
   "groupData": [
     {
@@ -7,7 +7,7 @@
       "policyName": "SAP_Policy_1",
       "frequency": "1 2 4 5 * 4",
       "isEditMode": false,
-      "id": “1”
+      "id": "1"
     },
     {
       "textClassName": false,
@@ -15,7 +15,7 @@
       "policyName": "SAP_Policy_2”,
       "frequency": "1 2 4 5 * 4",
       "isEditMode": false,
-      "id": “2”
+      "id": "2"
     },
     {
       "textClassName": false,
@@ -27,5 +27,4 @@
     }
   ],
   "groupName": "testGroup",
-}"
-"
+}
