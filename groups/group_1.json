@@ -11,20 +11,20 @@
     },
     {
       "textClassName": false,
-      "policyId": "p_100023”,
-      "policyName": "SAP_Policy_2”,
+      "policyId": "p_100023",
+      "policyName": "SAP_Policy_2",
       "frequency": "1 2 4 5 * 4",
       "isEditMode": false,
       "id": "2"
     },
     {
       "textClassName": false,
-      "policyId": "p_100024”,
-      "policyName": "SAP_Policy_3”,
+      "policyId": "p_100024",
+      "policyName": "SAP_Policy_3",
       "frequency": "1 2 4 5 * 4",
       "isEditMode": false,
       "id": "3"
     }
   ],
-  "groupName": "testGroup",
+  "groupName": "testGroup"
 }
