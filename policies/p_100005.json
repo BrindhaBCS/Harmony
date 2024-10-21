@@ -1,0 +1,16 @@
+{
+  "c_100015": {
+    "value": "^.+$",
+    "comparison_type": "regex",
+    "policy_id": "p_100005",
+    "priority": "low",
+    "downtime": "yes"
+  },
+  "c_100014": {
+    "value": "^$",
+    "comparison_type": "regex",
+    "policy_id": "p_100005",
+    "priority": "low",
+    "downtime": "yes"
+  }
+}

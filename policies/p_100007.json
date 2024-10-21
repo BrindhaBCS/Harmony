@@ -1,0 +1,16 @@
+{
+  "c_100003": {
+    "value": "2",
+    "comparison_type": "inequality",
+    "policy_id": "p_100006",
+    "priority": "high",
+    "downtime": "no"
+  },
+  "c_100004": {
+    "value": "Linux robotest 4.18.0-372.80.1.el8_6.x86_64 #1 SMP Fri Nov 3 14:30:16 EDT 2023 x86_64 x86_64 x86_64 GNU/Linu",
+    "comparison_type": "inequality",
+    "policy_id": "p_100006",
+    "priority": "high",
+    "downtime": "no"
+  }
+}

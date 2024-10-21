@@ -1,0 +1,16 @@
+{
+  "c_100010": {
+    "value": "0",
+    "comparison_type": "equality",
+    "policy_id": "p_100003",
+    "priority": "medium",
+    "downtime": "no"
+  },
+  "c_100011": {
+    "value": ["DEFAULT", "SDEFAULT", "NO", "YES"],
+    "comparison_type": "in_list",
+    "policy_id": "p_100003",
+    "priority": "medium",
+    "downtime": "no"
+  }
+}
