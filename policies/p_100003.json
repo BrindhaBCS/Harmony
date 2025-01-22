@@ -1,0 +1,60 @@
+{
+    "policyVariableData": [
+      {
+        "id": 1,
+        "collectorId": "c_100215",
+        "driftPriority": "Low",
+        "expectedValue": "20",
+        "templateId": "413345",
+        "comparisonType": "Inequality",
+        "autoReaction": "No"
+      },
+      {
+        "id": 2,
+        "collectorId": "c_100002",
+        "driftPriority": "Medium",
+        "expectedValue": "19",
+        "templateId": "413345",
+        "comparisonType": "Minimum Value",
+        "autoReaction": "No"
+      },
+      {
+        "id": 3,
+        "collectorId": "c_100003",
+        "driftPriority": "High",
+        "expectedValue": "^1$",
+        "templateId": "413345",
+        "comparisonType": "Regex",
+        "autoReaction": "No"
+      },
+      {
+        "id": 4,
+        "collectorId": "c_100004",
+        "driftPriority": "Critical",
+        "expectedValue": "1-3",
+        "templateId": "413345",
+        "comparisonType": "Inside Range",
+        "autoReaction": "No"
+      },
+      {
+        "id": 5,
+        "collectorId": "c_100005",
+        "driftPriority": "Critical",
+        "expectedValue": "10-20",
+        "templateId": "413345",
+        "comparisonType": "Outside Range",
+        "autoReaction": "No"
+      }
+    ],
+    "policyName": "SAP Sybase Policy",
+    "policyDescription": "SAP Level Metrics",
+    "owner": [
+      "mubbanthal",
+      "lokeshkumar"
+    ],
+    "roleTags": [
+      "test_harmony"
+    ],
+    "executionUser": "",
+    "sudoPrefix": "sudo"
+  }
