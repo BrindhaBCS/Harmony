@@ -90,6 +90,7 @@ $loglun2,5
 $archlun1,6
 $archlun2,7
 $recolun,8
+$DBSID,CSK
 $datagroup1,DATA_DISK_01
 $datagroup2,DATA_DISK_02
 $loggroup1,OLOG_DISK_01
