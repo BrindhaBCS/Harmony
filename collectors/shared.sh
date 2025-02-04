@@ -19,7 +19,7 @@ else
     elif (( usage >= fs_warning_threshold )); then
         echo "$hana_shared_mount filesystem usage = Warning ${usage}% used"
     else
-        echo "$hana_shared_mount filesystem usage = OK ${usage}% used"
+        echo "$hana_shared_mount filesystem usage = OK"
     fi
 fi
 
