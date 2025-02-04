@@ -1,21 +1,24 @@
 #!/bin/bash
 
-# Define the Oracle profile location
-PROFILE_PATH="/usr/sap/TS3/SYS/profile/DEFAULT.PFL"
+# Define the SAP HANA instance profile location
+HANA_SID="H2P"                  # Your SAP HANA SID
+INSTANCE="HDB00"                # Your instance name
+HOSTNAME="azlsaph2pdb02"        # Your host name
+PROFILE_PATH="/usr/sap/$HANA_SID/SYS/profile/${HANA_SID}_${INSTANCE}_$HOSTNAME"
 
-# Expected value for dbms/type
-EXPECTED_DBMS_TYPE="ora"
+# Expected value for Autostart
+EXPECTED_AUTOSTART="0"
 
 # Check if the profile file exists
 if [ -f "$PROFILE_PATH" ]; then
-    # Get the current value of the 'dbms/type' parameter
-    DBMS_TYPE_VALUE=$(grep -i "^dbms/type" "$PROFILE_PATH" | awk -F= '{print $2}' | tr -d '[:space:]')
+    # Get the current value of the 'Autostart' parameter
+    AUTOSTART_VALUE=$(grep -i "Autostart" "$PROFILE_PATH" | awk -F= '{print $2}' | tr -d '[:space:]')
 
     # Compare the current value with the expected value
-    if [ "$DBMS_TYPE_VALUE" == "$EXPECTED_DBMS_TYPE" ]; then
-        echo "dbms/type is correctly set to = $EXPECTED_DBMS_TYPE"
+    if [ "$AUTOSTART_VALUE" -eq "$EXPECTED_AUTOSTART" ]; then
+        echo "Autostart is already set to = $EXPECTED_AUTOSTART."
     else
-        echo "dbms/type is not set to = $EXPECTED_DBMS_TYPE (current value = $DBMS_TYPE_VALUE)"
+        echo "Autostart is not set to = $EXPECTED_AUTOSTART (current value = $AUTOSTART_VALUE)."
     fi
 else
     echo "Profile file not found = $PROFILE_PATH"
