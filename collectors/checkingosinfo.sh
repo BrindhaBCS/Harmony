@@ -9,7 +9,7 @@ if [ -f "$OS_RELEASE_FILE" ]; then
     PRETTY_NAME=$(grep "^PRETTY_NAME=" "$OS_RELEASE_FILE" | awk -F= '{print $2}' | tr -d '[:space:]' | sed 's/"//g')
 
     # Print the PRETTY_NAME without quotes
-    echo "PRETTY_NAME = $PRETTY_NAME"
+    echo "OS release = $PRETTY_NAME"
 else
-    echo "OS release file not found = $OS_RELEASE_FILE"
+    echo "OS release = $PRETTY_NAME"
 fi
