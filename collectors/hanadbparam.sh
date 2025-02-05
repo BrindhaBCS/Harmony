@@ -16,10 +16,10 @@ if [ -f "$PROFILE_PATH" ]; then
 
     # Compare the current value with the expected value
     if [ "$AUTOSTART_VALUE" -eq "$EXPECTED_AUTOSTART" ]; then
-        echo "Autostart is already set to = $EXPECTED_AUTOSTART."
+        echo "Autostart value is = $EXPECTED_AUTOSTART"
     else
-        echo "Autostart is not set to = $EXPECTED_AUTOSTART (current value = $AUTOSTART_VALUE)."
+        echo "Autostart value is = $EXPECTED_AUTOSTART (current value = $AUTOSTART_VALUE)"
     fi
 else
-    echo "Profile file not found = $PROFILE_PATH"
+    echo "Autostart value is = Profile file not found"
 fi
