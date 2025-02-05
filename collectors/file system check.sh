@@ -17,7 +17,7 @@ else
     if (( usage >= fs_error_threshold )); then
         echo "$mount filesystem usage in % = Critical ${usage}% used"
     elif (( usage >= fs_warning_threshold )); then
-        echo "$hana_data_mount filesystem in % = Warning ${usage}% used"
+        echo "$mount filesystem in % = Warning ${usage}% used"
     else
         echo "$mount filesystem usage in % = ${usage}"
     fi
