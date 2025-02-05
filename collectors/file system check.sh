@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set filesystem usage thresholds
-#fs_warning_threshold=85
+fs_warning_threshold=85
 fs_error_threshold=90
 
 # Define HANA data mount point
@@ -16,8 +16,8 @@ if [[ -z "$usage" ]]; then
 else
     if (( usage >= fs_error_threshold )); then
         echo "$mount filesystem usage in % = Critical ${usage}% used"
-    #elif (( usage >= fs_warning_threshold )); then
-        #echo "$hana_data_mount filesystem in % = Warning ${usage}% used"
+    elif (( usage >= fs_warning_threshold )); then
+        echo "$hana_data_mount filesystem in % = Warning ${usage}% used"
     else
         echo "$mount filesystem usage in % = ${usage}"
     fi
