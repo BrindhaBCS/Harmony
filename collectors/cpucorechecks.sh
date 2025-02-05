@@ -1,7 +1,7 @@
 #!/bin/bash
-
-# Get the number of processing units (CPU cores)
-CPU_CORES=$(nproc)
-
-# Print the number of CPU cores
-echo "Number of CPU cores = $CPU_CORES"
+cpu=$(lscpu | awk '/^CPU\(s\)/{print $2}')
+if [[ -z "$cpu" ]]; then
+    printf 'cpu="Parameter not found"\n'
+else
+    printf 'cpu=%s\n' "$cpu"
+fi
