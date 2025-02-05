@@ -7,3 +7,4 @@ if [[ -z "$DB_STATUS" ]]; then
     echo "Oracle Database Status = DOWN"
 else
     echo "Oracle Database Status = RUNNING"
+fi
