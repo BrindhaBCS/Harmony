@@ -2,8 +2,8 @@
   "groupDescription": "test update 1",
   "groupData": [
     {
-      "textClassName": false,
-      "policyId": "p_100022",
+      "textClassName": true,
+      "policyId": "p_100001",
       "policyName": "SAP_Policy_1",
       "frequency": "1 2 4 5 * 4",
       "isEditMode": false,
