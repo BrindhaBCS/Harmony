@@ -22,4 +22,3 @@ else
         echo "$oracle_mount filesystem usage = OK"
     fi
 fi
-
