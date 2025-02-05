@@ -13,9 +13,9 @@ if [ -f "$PROFILE_PATH" ]; then
 
     # Compare the current value with the expected value
     if [ "$DBMS_TYPE_VALUE" == "$EXPECTED_DBMS_TYPE" ]; then
-        echo "dbms/type is correctly set to = $EXPECTED_DBMS_TYPE"
+        echo "dbms/type value is = $EXPECTED_DBMS_TYPE"
     else
-        echo "dbms/type is not set to = $EXPECTED_DBMS_TYPE (current value = $DBMS_TYPE_VALUE)"
+        echo "dbms/type value is = $DBMS_TYPE_VALUE (expected value = $EXPECTED_DBMS_TYPE)"
     fi
 else
     echo "Profile file not found = $PROFILE_PATH"
