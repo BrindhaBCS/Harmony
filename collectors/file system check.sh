@@ -19,6 +19,6 @@ else
     #elif (( usage >= fs_warning_threshold )); then
         #echo "$hana_data_mount filesystem in % = Warning ${usage}% used"
     else
-        echo "$mount filesystem usage in % = OK"
+        echo "$mount filesystem usage in % = ${usage}"
     fi
 fi
