@@ -2,7 +2,7 @@
     "policyVariableData": [
       {
         "id": 1,
-        "collectorId": "c_100215",
+        "collectorId": "c_100001",
         "driftPriority": "Low",
         "expectedValue": "20",
         "templateId": "413345",
