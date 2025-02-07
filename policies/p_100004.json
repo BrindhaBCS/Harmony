@@ -1,0 +1,33 @@
+{
+    "policyVariableData": [
+      {
+        "id": 1,
+        "collectorId": "c_100304",
+        "driftPriority": "high",
+        "expectedValue": "0-74",
+        "templateId": "",
+        "comparisonType": "Range",
+        "autoReaction": "No"
+      },
+      {
+        "id": 2,
+        "collectorId": "c_100305",
+        "driftPriority": "Critical",
+        "expectedValue": "Green",
+        "templateId": "",
+        "comparisonType": "Equality",
+        "autoReaction": "No"
+      }
+    ],
+    "policyName": "Hana with suse os checks",
+    "policyDescription": "SAP Level Metrics",
+    "owner": [
+      "murugan",
+      "sathish kutty"
+    ],
+    "roleTags": [
+      "test_harmony"
+    ],
+    "executionUser": "",
+    "sudoPrefix": ""
+  }
