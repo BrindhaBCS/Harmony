@@ -7,7 +7,8 @@
         "expectedValue": "0-74",
         "templateId": "",
         "comparisonType": "Range",
-        "autoReaction": "No"
+        "autoReaction": "No",
+        "downtime":"No"
       },
       {
         "id": 2,
@@ -16,11 +17,12 @@
         "expectedValue": "Green",
         "templateId": "",
         "comparisonType": "Equality",
-        "autoReaction": "No"
+        "autoReaction": "No",
+        "downtime":"Yes"
       }
     ],
-    "policyName": "Hana with suse os checks",
-    "policyDescription": "SAP Level Metrics",
+    "policyName": "Hana with suse os checks - demo",
+    "policyDescription": "Hana with suse os checks - demo",
     "owner": [
       "murugan",
       "sathish kutty"
