@@ -23,9 +23,9 @@ done
 
 # Output overall DB status
 if [ "$DB_STATUS" == "Green" ]; then
-    echo "DB is running = Green"
+    echo "Hana DB Status = Green"
 else
-    echo "DB is not running = Red"
+    echo "Hana DB Status = Red"
 fi
 
 # Clean up the temp file
