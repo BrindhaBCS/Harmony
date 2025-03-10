@@ -5,8 +5,8 @@ init_file="/oracle/${SID}/19/dbs/init.ora"
 
 block_size_check=$(grep -i "^[[:space:]]*$parameter" $init_file | awk -F'=' '{gsub(/[[:space:]]*/, "", $2); print $2}')
 
-if [ -z "$block_size_check" ]; then
-    echo "$parameter" = "parameter not found"
+if [ -z "$command_output" ]; then
+    printf "%s = Not found\n" "$parameter_name"
 else
-    echo "$parameter" = "$block_size_check"
+    printf "%s = %s\n" "$parameter_name" "$command_output"
 fi
