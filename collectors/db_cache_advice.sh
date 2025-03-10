@@ -7,8 +7,8 @@ command_output=$(su - "$USER" -c "echo 'show parameter $parameter_name' | sqlplu
 
 #expected output ON or OFF
 
-if [[ -z "$command_output" ]]; then
-    echo "$parameter_name = Not found"
+if [ -z "$command_output" ]; then
+    printf "%s = Not found\n" "$parameter_name"
 else
-    echo "$parameter_name = $command_output"
+    printf "%s = %s\n" "$parameter_name" "$command_output"
 fi
