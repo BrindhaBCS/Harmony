@@ -3,11 +3,10 @@ SID="$SAP_SID"
 parameter="LISTENER_PORT"
 tns_file="/sapmnt/${SID}/profile/oracle/tnsnames.ora"
 
-Port_check=$(grep -i 'PORT' $tns_file | awk -F'PORT *= *' '{print $2}' | awk -F')' '{print $1}')
+command_output=$(grep -i 'PORT' $tns_file | awk -F'PORT *= *' '{print $2}' | awk -F')' '{print $1}')
 
-if [ -z "$Port_check" ]; then
-    echo "$parameter" = "parameter not found"
+if [ -z "$command_output" ]; then
+    printf "%s = Not found\n" "$parameter_name"
 else
-    echo "$parameter" = "$Port_check"
-
+    printf "%s = %s\n" "$parameter_name" "$command_output"
 fi
