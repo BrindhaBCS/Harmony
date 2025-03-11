@@ -1,6 +1,6 @@
 #!/bin/bash
 SID="$SAP_SID"
-parameter="LISTENER_PORT"
+parameter_name="LISTENER_PORT"
 tns_file="/sapmnt/${SID}/profile/oracle/tnsnames.ora"
 
 command_output=$(grep -i 'PORT' $tns_file | awk -F'PORT *= *' '{print $2}' | awk -F')' '{print $1}')
