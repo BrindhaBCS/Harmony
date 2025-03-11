@@ -1,6 +1,6 @@
 #!/bin/bash
 SID="$SAP_SID"
-parameter="GLOBAL_NAME"
+parameter_name="GLOBAL_NAME"
 tns_file="/sapmnt/${SID}/profile/oracle/tnsnames.ora"
 
 command_output=$(grep -i 'GLOBAL_NAME' $tns_file | awk -F'GLOBAL_NAME *= *' '{print $2}' | awk -F')' '{print $1}')
