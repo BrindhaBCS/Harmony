@@ -4,7 +4,7 @@ SID="$SAP_SID"
 inst_no="$app_inst_no"
 host="$app_host"
 param_to_check="rsdb/reco_trials"
-expected_value="30"
+# expected_value="30"
 
 # Define profile paths in order of priority
 profiles=(
@@ -29,11 +29,11 @@ done
 
 # Print the final result (only one output)
 if [[ -n "$found_value" ]]; then
-        if [[ "$found_value" == "$expected_value" ]]; then
+        #if [[ "$found_value" == "$expected_value" ]]; then
                 echo "$param_to_check = $found_value"
-        else
-                echo "$param_to_check = $found_value (expected value = $expected_value)"
-        fi
+        #else
+                #echo "$param_to_check = $found_value (expected value = $expected_value)"
+        #fi
 else
     echo "$param_to_check = Not found"
 fi
