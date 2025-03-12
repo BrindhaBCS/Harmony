@@ -1,7 +1,8 @@
 #!/bin/bash
 SID="$DB_SID"
 parameter="db_block_size"
-init_file="/oracle/${SID}/19/dbs/init.ora"
+oraversion="$ora_version"    #19,121
+init_file="/oracle/${SID}/${oraversion}/dbs/init.ora"
 
 command_output=$(grep -i "^[[:space:]]*$parameter" $init_file | awk -F'=' '{gsub(/[[:space:]]*/, "", $2); print $2}')
 
