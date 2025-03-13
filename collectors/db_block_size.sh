@@ -1,6 +1,6 @@
 #!/bin/bash
 SID="$DB_SID"
-parameter="db_block_size"
+parameter_name="db_block_size"
 oraversion="$ora_version"    #19,121
 init_file="/oracle/${SID}/${oraversion}/dbs/init.ora"
 
