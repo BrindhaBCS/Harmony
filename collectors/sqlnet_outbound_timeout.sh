@@ -1,6 +1,6 @@
 #!/bin/bash
 SID="$SAP_SID"
-parameter="SQLNET.OUTBOUND_CONNECT_TIMEOUT"
+parameter_name="SQLNET.OUTBOUND_CONNECT_TIMEOUT"
 sql_file="/sapmnt/${SID}/profile/oracle/sqlnet.ora"
 
 # Extract the actual value (ignoring case)
