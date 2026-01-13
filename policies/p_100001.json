@@ -47,7 +47,7 @@
       }
     ],
     "policyName": "SAP Sybase Policy",
-    "policyDescription": "SAP Level Metrics",
+    "policyDescription": "SAP Level Metrics master sync public",
     "owner": [
       "mubbanthal",
       "lokeshkumar"
@@ -58,4 +58,5 @@
     "executionUser": "",
     "sudoPrefix": "sudo"
   }
+
 
