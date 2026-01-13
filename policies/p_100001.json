@@ -3,7 +3,7 @@
       {
         "id": 1,
         "collectorId": "c_100001",
-        "driftPriority": "Low",
+        "driftPriority": "High",
         "expectedValue": "20",
         "templateId": "413345",
         "comparisonType": "Inequality",
@@ -58,3 +58,4 @@
     "executionUser": "",
     "sudoPrefix": "sudo"
   }
+
