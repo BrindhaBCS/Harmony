@@ -1,5 +1,5 @@
 {
-  "groupDescription": "test update000",
+  "groupDescription": "test update master sync public",
   "groupData": [
     {
       "textClassName": true,
@@ -28,4 +28,5 @@
   ],
   "groupName": "testGroup"
 }
+
 
