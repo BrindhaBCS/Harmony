@@ -1,34 +1,46 @@
 {
-  "c_100276": [
+  "environmentList": [
     {
-      "environment_name": "SID",
-      "environment_value": "KSI"
+      "id": "25",
+      "EnvironmentName": "SID",
+      "policyId": "c_100276",
+      "EnvironmentValue": "KSL",
+      "type": "manual"
     },
     {
-      "environment_name": "instance_no",
-      "environment_value": "00"
-    }
-  ],
-  "c_100308": [
-    {
-      "environment_name": "filesystem",
-      "environment_value": "/usr/sap"
-    }
-  ],
-  "c_100361": [
-    {
-      "environment_name": "DB_SID",
-      "environment_value": ""
+      "id": "26",
+      "EnvironmentName": "instance_no",
+      "policyId": "c_100276",
+      "EnvironmentValue": "00",
+      "type": "manual"
     },
     {
-      "environment_name": "haservicename",
-      "environment_value": ""
-    }
-  ],
-  "c_100393": [
+      "id": "27",
+      "EnvironmentName": "filesystem",
+      "policyId": "c_100308",
+      "EnvironmentValue": "/usr/sap",
+      "type": "manual"
+    },
     {
-      "environment_name": "SAP_SID",
-      "environment_value": ""
+      "id": "28",
+      "EnvironmentName": "DB_SID",
+      "policyId": "c_100361",
+      "EnvironmentValue": "",
+      "type": "manual"
+    },
+    {
+      "id": "29",
+      "EnvironmentName": "haservicename",
+      "policyId": "c_100361",
+      "EnvironmentValue": "",
+      "type": "manual"
+    },
+    {
+      "id": "30",
+      "EnvironmentName": "SAP_SID",
+      "policyId": "c_100393",
+      "EnvironmentValue": "",
+      "type": "manual"
     }
   ]
 }
