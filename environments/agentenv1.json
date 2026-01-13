@@ -1,32 +1,34 @@
-[
-  {
-    "collector_id": "c_100276",
-    "environment_name": "SID",
-    "environment_value": "KSI"
-  },
-  {
-    "collector_id": "c_100276",
-    "environment_name": "instance_no",
-    "environment_value": "00"
-  },
-  {
-    "collector_id": "c_100308",
-    "environment_name": "filesystem",
-    "environment_value": "/usr/sap"
-  },
-  {
-    "collector_id": "c_100361",
-    "environment_name": "DB_SID",
-    "environment_value": ""
-  },
-  {
-    "collector_id": "c_100361",
-    "environment_name": "haservicename",
-    "environment_value": ""
-  },
-  {
-    "collector_id": "c_100393",
-    "environment_name": "SAP_SID",
-    "environment_value": ""
-  }
-]
+{
+  "c_100276": [
+    {
+      "environment_name": "SID",
+      "environment_value": "KSI"
+    },
+    {
+      "environment_name": "instance_no",
+      "environment_value": "00"
+    }
+  ],
+  "c_100308": [
+    {
+      "environment_name": "filesystem",
+      "environment_value": "/usr/sap"
+    }
+  ],
+  "c_100361": [
+    {
+      "environment_name": "DB_SID",
+      "environment_value": ""
+    },
+    {
+      "environment_name": "haservicename",
+      "environment_value": ""
+    }
+  ],
+  "c_100393": [
+    {
+      "environment_name": "SAP_SID",
+      "environment_value": ""
+    }
+  ]
+}
