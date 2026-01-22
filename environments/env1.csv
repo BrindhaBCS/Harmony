@@ -1,0 +1,6 @@
+SID,KSD
+instance_no,11
+filesystem,/usr/sap
+DB_SID,MSD
+haservicename,MSD
+SAP_SID,KSS
