@@ -47,7 +47,7 @@
       }
     ],
     "policyName": "Github Public repo Test",
-    "policyDescription": "Github Public repo Test mastersync",
+    "policyDescription": "Test mastersync",
     "owner": [
       "mubbanthal",
       "lokeshkumar"
