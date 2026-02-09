@@ -1,5 +1,6 @@
 #!/bin/bash
 #updated by murugan for harmony github public repo test
+#mastersync test
 
 USER="${SAP_SID,,}adm"
 
@@ -11,3 +12,4 @@ else
     printf 'R3trans version = %s\n' "$R3trans_version"
 
 fi
+
