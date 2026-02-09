@@ -1,0 +1,5 @@
+SID,KGL
+instance_no,00
+filesystem,/usr/sap
+DB_SID,KSL
+haservicename,KDF
