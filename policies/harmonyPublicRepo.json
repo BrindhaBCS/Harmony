@@ -3,7 +3,7 @@
       {
         "id": 1,
         "collectorId": "c_100001",
-        "driftPriority": "High",
+        "driftPriority": "Medium",
         "expectedValue": "20",
         "templateId": "413345",
         "comparisonType": "Inequality",
@@ -21,7 +21,7 @@
       {
         "id": 3,
         "collectorId": "c_100003",
-        "driftPriority": "High",
+        "driftPriority": "Medium",
         "expectedValue": "^1$",
         "templateId": "413345",
         "comparisonType": "Regex",
@@ -39,7 +39,7 @@
       {
         "id": 5,
         "collectorId": "c_100005",
-        "driftPriority": "Critical",
+        "driftPriority": "Medium",
         "expectedValue": "10-20",
         "templateId": "413345",
         "comparisonType": "Outside Range",
@@ -47,7 +47,7 @@
       }
     ],
     "policyName": "Github Public repo Test",
-    "policyDescription": "SAP Level Metrics mastersync priavate",
+    "policyDescription": "Github Public repo Test mastersync",
     "owner": [
       "mubbanthal",
       "lokeshkumar"
