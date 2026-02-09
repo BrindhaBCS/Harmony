@@ -3,7 +3,7 @@
   "groupData": [
     {
       "textClassName": true,
-      "policyId": "p_100001",
+      "policyId": "p_100",
       "policyName": "SAP_Policy_1",
       "frequency": "1 2 4 6 * 4",
       "isEditMode": false,
@@ -11,7 +11,7 @@
     },
     {
       "textClassName": false,
-      "policyId": "p_100023",
+      "policyId": "p_100",
       "policyName": "SAP_Policy_2",
       "frequency": "1 2 4 5 * 5",
       "isEditMode": false,
@@ -19,7 +19,7 @@
     },
     {
       "textClassName": false,
-      "policyId": "p_100024",
+      "policyId": "p_100",
       "policyName": "SAP_Policy_3",
       "frequency": "1 2 4 5 * 4",
       "isEditMode": false,
